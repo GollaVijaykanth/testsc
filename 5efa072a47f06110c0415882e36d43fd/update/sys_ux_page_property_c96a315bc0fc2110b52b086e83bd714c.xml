@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="test223">f46a315b47fc2110c0415882e36d4327</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Page">4d6a315be3fc21109a07c13a6c03b16b</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 06:07:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c96a315bc0fc2110b52b086e83bd714c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="test223" source="x_406540_test223">5efa072a47f06110c0415882e36d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test223">5efa072a47f06110c0415882e36d43fd</sys_scope>
+        <sys_update_name>sys_ux_page_property_c96a315bc0fc2110b52b086e83bd714c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 06:07:31</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_406540_test223.f46a315b47fc2110c0415882e36d4327.route.chrome_header.4d6a315be3fc21109a07c13a6c03b16b</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=c96a315bc0fc2110b52b086e83bd714c"/>
+</record_update>

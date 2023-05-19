@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">cd6a315be3fc2110bb716e9367ff687c</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 06:07:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>816a315b4efc2110350bc71ccd0d147d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="test223" source="x_406540_test223">5efa072a47f06110c0415882e36d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test223">5efa072a47f06110c0415882e36d43fd</sys_scope>
+        <sys_update_name>m2m_app_config_theme_816a315b4efc2110350bc71ccd0d147d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 06:07:28</sys_updated_on>
+        <theme display_value="Light Theme">096a315b1efc211086155355cae5b07d</theme>
+        <ux_app_configuration display_value="test223 Config">f86a315b47fc2110c0415882e36d4327</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

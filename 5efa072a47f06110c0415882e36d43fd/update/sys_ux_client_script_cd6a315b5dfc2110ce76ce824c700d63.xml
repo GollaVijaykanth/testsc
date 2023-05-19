@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Order success">c56a315bbafc2110f826fbb0fa9daf65</macroponent>
+        <name>confirmation_message_1_caption</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Reference Number : ",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    const label = helpers.translateSync("Reference Number : ")
+    return `${label} ${api.state.successNumber}`;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-09 06:07:29</sys_created_on>
+        <sys_id>cd6a315b5dfc2110ce76ce824c700d63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>confirmation_message_1_caption</sys_name>
+        <sys_package display_value="test223" source="x_406540_test223">5efa072a47f06110c0415882e36d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test223">5efa072a47f06110c0415882e36d43fd</sys_scope>
+        <sys_update_name>sys_ux_client_script_cd6a315b5dfc2110ce76ce824c700d63</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 06:07:29</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>
